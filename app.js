@@ -55,7 +55,7 @@ const verifyVictory = () => {
         (state.c3 = state.c5 && state.c5 == state.c7 && state.c3 > 0) 
     ){
         return true;
-    } else if {
+    } else if (
         state.c1 != 0 &&
         state.c2 != 0 &&
         state.c3 != 0 &&
@@ -65,7 +65,7 @@ const verifyVictory = () => {
         state.c7 != 0 &&
         state.c8 != 0 &&
         state.c9 != 0
-    } {
+     ) {
         return null;
     } else {
         return false;
